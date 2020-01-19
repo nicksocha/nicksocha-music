@@ -161,6 +161,11 @@ ul {
   user-select: none;
 }
 
+.hr-position {
+  position: relative;
+  top: 7rem;
+}
+
 .no-hover {
   pointer-events: none;
 }
@@ -219,12 +224,6 @@ ul {
   color: var(--yellow);
 }
 
-/* todoCheck to see if you can convert this to a class to work for all sections. */
-#cloudkid {
-  position: relative;
-  top: 7rem;
-}
-
 #header-logo {
   width: 4rem;
 }
@@ -245,7 +244,10 @@ ul {
 
 @media screen and (max-width: 900px) {
   h1 {
-    font-size: calc(0.8rem + 4vw);
+    font-size: calc(0.7rem + 4vw);
+  }
+  header {
+    display: none;
   }
   .home-h1 {
     -moz-user-select: none;
@@ -257,5 +259,8 @@ ul {
     margin-top: 3vw;
     text-align: center;
     user-select: none;
+  }
+  .video-section {
+    border-radius: 15px;
   }
 }
