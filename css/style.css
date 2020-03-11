@@ -105,6 +105,7 @@ html {
   --white: #fff;
   --yellow: #ffc600;
   font-family: "Ubuntu Condensed", sans-serif;
+  scroll-behavior: smooth;
 }
 
 main {
