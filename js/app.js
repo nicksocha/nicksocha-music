@@ -66,7 +66,18 @@ function shuffle(arra1) {
   }
   return arra1;
 }
-const myArray = ['CloudKid', 'JimTV', 'Nebbra', 'MIND MUSIC DAILY', 'Fil Far', 'ChilledCow', 'Code Radio'];
+const myArray = [
+  'CloudKid',
+  'JimTV',
+  'Nebbra',
+  'MIND MUSIC DAILY',
+  'Fil Far',
+  'ChilledCow',
+  'Code Radio',
+  'X-Team Radio',
+  'Head Bob',
+  "Pam's Live Code Songs",
+];
 shuffle(myArray);
 // endHeader Characteristics Carousel
 
