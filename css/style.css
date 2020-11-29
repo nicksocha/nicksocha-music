@@ -205,6 +205,17 @@ ul {
   padding: 2.5vw;
 }
 
+/* YouTube Music Links */
+.yt-link a:hover {
+  border-bottom: 0.3rem solid var(--yellow);
+  text-decoration: none;
+}
+
+.yt-link-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
 #back-to-top-btn {
   background: var(--blue);
   border-radius: 15px 0 0 15px;

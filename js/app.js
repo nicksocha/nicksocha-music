@@ -76,7 +76,8 @@ const myArray = [
   'Code Radio',
   'X-Team Radio',
   'Head Bob',
-  "Pam's Live Code Songs",
+  "Pam's LCS",
+  'YouTube Music',
 ];
 shuffle(myArray);
 // endHeader Characteristics Carousel
