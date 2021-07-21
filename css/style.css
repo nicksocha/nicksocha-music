@@ -172,6 +172,11 @@ ul {
   pointer-events: none;
 }
 
+.sub-label {
+  text-align: left;
+  margin-top: calc(0.5rem + 7vh);
+}
+
 .transparent {
   opacity: 0;
 }

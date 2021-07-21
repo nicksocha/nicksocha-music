@@ -72,11 +72,12 @@ const myArray = [
   'Nebbra',
   'MIND MUSIC DAILY',
   'Fil Far',
-  'ChilledCow',
+  'Lofi Girl',
   'Code Radio',
   'X-Team Radio',
   'Head Bob',
   "Pam's LCS",
+  "Music Lab",
   'YouTube Music',
 ];
 shuffle(myArray);
